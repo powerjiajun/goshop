@@ -14,39 +14,39 @@ spring:
           enabled: true
       routes:
         - id: nameRoot
-          uri: lb://spring-cloud-producer
+          uri: lb://user
           predicates:
             - Path=/name/**
           filters:
             - StripPrefix=2
         - id: add_request_parameter_route
           #       uri: http://localhost:9000
-          uri: lb://spring-cloud-producer
+          uri: lb://user
           filters:
             - AddRequestParameter=foo, bar
           predicates:
             - Method=GET
         - id: requestratelimiter_route
-          uri: lb://spring-cloud-producer
+          uri: lb://user
           filters:
             - name: RequestRateLimiter
               args:
-                redis-rate-limiter.replenishRate: 10 # 允许用户每秒处理多少个请求
-                redis-rate-limiter.burstCapacity: 20 # 令牌桶的容量，允许在一秒钟内完成的最大请求数
+                redis-rate-limiter.replenishRate: 1 # 允许用户每秒处理多少个请求
+                redis-rate-limiter.burstCapacity: 1 # 令牌桶的容量，允许在一秒钟内完成的最大请求数
                 key-resolver: "#{@userKeyResolver}" # 使用 SpEL 按名称引用 bean
           predicates:
             - Method=GET
         - id: hystrix_route
-          uri: lb://spring-cloud-producer
+          uri: lb://user
           predicates:
-            - Path=/consumingserviceendpoint
+            - Path=/findUserInfo
           filters:
             - name: Hystrix
               args:
                 name: fallbackcmd
                 fallbackUri: forward:/incaseoffailureusethis
         - id: retry_test
-          uri: lb://spring-cloud-producer
+          uri: lb://user
           predicates:
             - Path=/retry
           filters:
