@@ -24,7 +24,7 @@ public class UserRest {
 
     @RequestMapping("/consumer")
     public String consumer() {
-        kafkaTemplate.send("my-replicated-topic", "hello");
+        kafkaTemplate.send("test3", "hello");
         return "ddd";
     }
 

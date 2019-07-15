@@ -17,7 +17,9 @@ spring:
       enable-auto-commit: true
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-
+  redis:
+  cache.clusterNodes: 192.168.176.129:6379,192.168.176.130:6379,192.168.176.131:6379
+    cache.commandTimeout: 5000
 server:
   port: 9001
 eureka:
