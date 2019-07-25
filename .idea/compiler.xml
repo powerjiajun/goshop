@@ -7,16 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="common" />
         <module name="gateway" />
         <module name="model" />
+        <module name="monitor" />
         <module name="registercenter" />
         <module name="user" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
+      <module name="common" target="1.5" />
       <module name="gateway" target="1.8" />
       <module name="model" target="1.5" />
+      <module name="monitor" target="1.5" />
       <module name="registercenter" target="1.8" />
       <module name="user" target="1.8" />
     </bytecodeTargetLevel>
