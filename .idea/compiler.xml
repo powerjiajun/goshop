@@ -7,21 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="authorization-server" />
         <module name="common" />
         <module name="eureka" />
+        <module name="gatewayrest" />
+        <module name="goshop" />
         <module name="model" />
         <module name="module-user" />
         <module name="monitor" />
-        <module name="tmp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
+      <module name="auth" target="1.8" />
+      <module name="authorization-server" target="1.8" />
       <module name="business" target="1.8" />
       <module name="center" target="1.8" />
       <module name="common" target="1.5" />
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="gatewayrest" target="1.8" />
+      <module name="goshop" target="1.8" />
       <module name="model" target="1.5" />
       <module name="module-user" target="1.8" />
       <module name="monitor" target="1.5" />
@@ -32,8 +39,13 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
+      <module name="auth" options="-parameters" />
+      <module name="authorization-server" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="gatewayrest" options="-parameters" />
+      <module name="goshop" options="-parameters" />
       <module name="module-user" options="-parameters" />
       <module name="tmp" options="-parameters" />
       <module name="user" options="-parameters" />
