@@ -10,7 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/center/eureka/eureka.iml" filepath="$PROJECT_DIR$/center/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gateway/gateway-rest/gatewayrest.iml" filepath="$PROJECT_DIR$/gateway/gateway-rest/gatewayrest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway-rest/gateway-rest.iml" filepath="$PROJECT_DIR$/gateway/gateway-rest/gateway-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/goshop.iml" filepath="$PROJECT_DIR$/.idea/goshop.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/module-user/module-user.iml" filepath="$PROJECT_DIR$/business/module-user/module-user.iml" />

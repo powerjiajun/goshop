@@ -10,7 +10,7 @@
         <module name="authorization-server" />
         <module name="common" />
         <module name="eureka" />
-        <module name="gatewayrest" />
+        <module name="gateway-rest" />
         <module name="goshop" />
         <module name="model" />
         <module name="module-user" />
@@ -27,7 +27,7 @@
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway" target="1.8" />
-      <module name="gatewayrest" target="1.8" />
+      <module name="gateway-rest" target="1.8" />
       <module name="goshop" target="1.8" />
       <module name="model" target="1.5" />
       <module name="module-user" target="1.8" />
@@ -44,7 +44,7 @@
       <module name="eureka" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="gatewayrest" options="-parameters" />
+      <module name="gateway-rest" options="-parameters" />
       <module name="goshop" options="-parameters" />
       <module name="module-user" options="-parameters" />
       <module name="tmp" options="-parameters" />
