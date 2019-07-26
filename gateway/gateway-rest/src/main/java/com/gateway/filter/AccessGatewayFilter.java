@@ -1,5 +1,6 @@
 package com.gateway.filter;
 
+import com.core.constans.authorization.AuthConstants;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
@@ -42,7 +43,13 @@ public class AccessGatewayFilter implements GatewayFilter, Ordered {
         String authentication = request.getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
         String method = request.getMethodValue();
         String url = request.getPath().value();
-        System.out.println("过滤器：" + url + method);
+        String token = request.getQueryParams().getFirst(AuthConstants.TOKEN_REQUEST_PARAM_NAME);
+        if (StringUtils.isBlank(token) || !"123".equals(token)) {
+            System.out.println("token无效：" + url + method);
+            return unauthorized(exchange);
+        }
+
+        System.out.println("授权过滤器：" + url + method);
         return chain.filter(exchange);
 //        return unauthorized(exchange);
     }

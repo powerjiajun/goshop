@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="authorization-server" />
-        <module name="common" />
+        <module name="core" />
         <module name="eureka" />
         <module name="gateway-rest" />
         <module name="goshop" />
@@ -24,6 +24,7 @@
       <module name="business" target="1.8" />
       <module name="center" target="1.8" />
       <module name="common" target="1.5" />
+      <module name="core" target="1.5" />
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway" target="1.8" />
