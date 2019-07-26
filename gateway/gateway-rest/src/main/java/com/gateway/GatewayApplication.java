@@ -27,7 +27,7 @@ public class GatewayApplication {
 								.addResponseHeader("X-Response-test", "test"))
 						.uri("lb://API")
 						.order(0)
-						.id("test_consumer_service")
+						.id("api_route")
 				)
 				.build();
 	}

@@ -1,4 +1,4 @@
-package com.goshop.gateway.gateway.config;
+package com.gateway.config;
 
 import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
 import org.springframework.context.annotation.Bean;
