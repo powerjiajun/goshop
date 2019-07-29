@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
         <module name="authorization-server" />
+        <module name="config" />
         <module name="core" />
         <module name="eureka" />
         <module name="gateway-rest" />
@@ -24,6 +25,7 @@
       <module name="business" target="1.8" />
       <module name="center" target="1.8" />
       <module name="common" target="1.5" />
+      <module name="config" target="1.8" />
       <module name="core" target="1.5" />
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -32,7 +34,7 @@
       <module name="goshop" target="1.8" />
       <module name="model" target="1.5" />
       <module name="module-user" target="1.8" />
-      <module name="monitor" target="1.5" />
+      <module name="monitor" target="1.8" />
       <module name="tmp" target="1.8" />
       <module name="user" target="1.8" />
     </bytecodeTargetLevel>
@@ -42,12 +44,14 @@
       <module name="api" options="-parameters" />
       <module name="auth" options="-parameters" />
       <module name="authorization-server" options="-parameters" />
+      <module name="config" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="gateway-rest" options="-parameters" />
       <module name="goshop" options="-parameters" />
       <module name="module-user" options="-parameters" />
+      <module name="monitor" options="-parameters" />
       <module name="tmp" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
