@@ -8,9 +8,10 @@ eureka:
 
 spring:
   application:
-    name: config-server
+    name: configserver
   kafka:
-    bootstrap-servers: 192.168.153.131:9092，192.168.153.131:9093，192.168.153.131:9094
+    bootstrap-servers: 192.168.153.131:9092
+    #bootstrap-servers: 192.168.153.131:9092，192.168.153.131:9093，192.168.153.131:9094
   cloud:
     config:
       server:
