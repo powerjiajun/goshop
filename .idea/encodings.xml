@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/gateway-rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor/hystrix-dashboard" charset="UTF-8" />
   </component>
 </project>
