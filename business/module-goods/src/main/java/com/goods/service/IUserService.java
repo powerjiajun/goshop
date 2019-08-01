@@ -1,4 +1,4 @@
-package com.goshop.user.service;
+package com.goshop.goods.service;
 
 import com.goshop.entity.User;
 

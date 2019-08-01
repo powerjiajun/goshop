@@ -16,13 +16,6 @@
         <option value="$PROJECT_DIR$/monitor/pom.xml" />
       </list>
     </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/business/module-goods/pom.xml" />
-        <option value="$PROJECT_DIR$/business/tmp_module/pom.xml" />
-        <option value="$PROJECT_DIR$/monitor/hystrix-turbine/pom.xml" />
-      </set>
-    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

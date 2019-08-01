@@ -1,7 +1,7 @@
-package com.goshop.user.controller;
+package com.goshop.goods.controller;
 
 import com.goshop.entity.User;
-import com.goshop.user.service.IUserService;
+import com.goshop.goods.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

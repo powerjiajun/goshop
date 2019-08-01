@@ -1,4 +1,4 @@
-package com.goshop.user.cache;
+package com.goshop.goods.cache;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

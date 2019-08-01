@@ -21691,3 +21691,354 @@ Removing tuple for : StreamingHandler_bc208feb-b982-42d1-90bf-4a14f7cd1c9b tuple
 2019-08-01 17:14:51.385  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Re-initing host connection: YH-201707005:9002 default
 2019-08-01 17:14:53.333  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Got ioe for host: YH-201707005:9001
 2019-08-01 17:14:53.333  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Re-initing host connection: YH-201707005:9001 default
+2019-08-01 18:07:41.042  INFO 16104 --- [restartedMain] c.dashboard.HystrixDashboardApplication  : No active profile set, falling back to default profiles: default
+2019-08-01 18:07:41.781  WARN 16104 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-08-01 18:07:41.930  INFO 16104 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a1155882-3380-3a82-bdf8-a365ac7aee73
+2019-08-01 18:07:42.001  INFO 16104 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$55c3a290] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-01 18:07:42.019 ERROR 16104 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-01 18:07:42.185 ERROR 16104 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-01 18:07:42.470  INFO 16104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5555 (http)
+2019-08-01 18:07:42.481 ERROR 16104 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.12] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2019-08-01 18:07:42.488  INFO 16104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-01 18:07:42.488  INFO 16104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-08-01 18:07:42.575  INFO 16104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-01 18:07:42.575 DEBUG 16104 --- [restartedMain] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-08-01 18:07:42.575  INFO 16104 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1516 ms
+2019-08-01 18:07:42.782  WARN 16104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-01 18:07:42.782  INFO 16104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-01 18:07:42.790  INFO 16104 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5316a363
+2019-08-01 18:07:43.288 DEBUG 16104 --- [restartedMain] o.s.w.s.v.f.FreeMarkerConfigurer         : File system access not preferred: using SpringTemplateLoader
+2019-08-01 18:07:43.321  WARN 16104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-01 18:07:43.322  INFO 16104 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-01 18:07:43.359 DEBUG 16104 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-08-01 18:07:43.451  INFO 16104 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-01 18:07:43.460 DEBUG 16104 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-08-01 18:07:43.494 DEBUG 16104 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2019-08-01 18:07:43.519 DEBUG 16104 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-08-01 18:07:43.527 DEBUG 16104 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-08-01 18:07:43.717  WARN 16104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-08-01 18:07:43.920  INFO 16104 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 20 endpoint(s) beneath base path '/actuator'
+2019-08-01 18:07:43.986  INFO 16104 --- [restartedMain] o.s.c.n.turbine.SpringAggregatorFactory  : Could not find monitors: []
+2019-08-01 18:07:44.039  INFO 16104 --- [restartedMain] c.n.t.monitor.cluster.ClusterMonitor     : Registering event handler for cluster monitor: StaticListener_For_Aggregator
+2019-08-01 18:07:44.040  INFO 16104 --- [restartedMain] c.n.t.handler.TurbineDataDispatcher      : 
+
+Just added and starting handler tuple: StaticListener_For_Aggregator
+2019-08-01 18:07:44.041  INFO 16104 --- [restartedMain] c.n.t.monitor.cluster.ClusterMonitor     : All event handlers for cluster monitor: [StaticListener_For_Aggregator]
+2019-08-01 18:07:44.041  INFO 16104 --- [restartedMain] c.n.t.monitor.cluster.ClusterMonitor     : Starting up the cluster monitor for default_agg
+2019-08-01 18:07:44.043  INFO 16104 --- [restartedMain] c.n.t.discovery.InstanceObservable       : Starting InstanceObservable at frequency: 60000 millis
+2019-08-01 18:07:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:07:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:07:44.052  INFO 16104 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-08-01 18:07:44.075  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-08-01 18:07:44.268  INFO 16104 --- [Timer-0] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-08-01 18:07:44.268  INFO 16104 --- [Timer-0] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-08-01 18:07:44.356  INFO 16104 --- [Timer-0] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-08-01 18:07:44.356  INFO 16104 --- [Timer-0] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-08-01 18:07:44.487  INFO 16104 --- [Timer-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-08-01 18:07:44.552  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-08-01 18:07:44.553  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-08-01 18:07:44.669  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-08-01 18:07:44.671  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-08-01 18:07:44.673  INFO 16104 --- [Timer-0] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-01 18:07:44.675  INFO 16104 --- [Timer-0] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564654064675 with initial instances count: 3
+2019-08-01 18:07:44.677  INFO 16104 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application HYSTRIX-DASHBOARD with eureka with status UP
+2019-08-01 18:07:44.678  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:07:44.679  INFO 16104 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564654064679, current=UP, previous=STARTING]
+2019-08-01 18:07:44.689  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:07:44.689  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:07:44.690  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:07:44.690  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:07:44.690  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:07:44.726  INFO 16104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HYSTRIX-DASHBOARD/YH-201707005:hystrix-dashboard:5555: registering service...
+2019-08-01 18:07:44.729  INFO 16104 --- [Timer-0] c.n.t.monitor.instance.InstanceMonitor   : Url for host: http://YH-201707005:9001/actuator/hystrix.stream default
+2019-08-01 18:07:44.730  INFO 16104 --- [Timer-0] c.n.t.handler.TurbineDataDispatcher      : 
+
+Just added and starting handler tuple: default_agg_aggClusterEventHandler
+2019-08-01 18:07:44.731  INFO 16104 --- [Timer-0] c.n.turbine.data.AggDataFromCluster      : Per handler dispacher started for: default_agg_aggClusterEventHandler
+2019-08-01 18:07:44.733  INFO 16104 --- [Timer-0] c.n.t.monitor.instance.InstanceMonitor   : Url for host: http://YH-201707005:9002/actuator/hystrix.stream default
+2019-08-01 18:07:44.976  INFO 16104 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_HYSTRIX-DASHBOARD/YH-201707005:hystrix-dashboard:5555 - registration status: 204
+2019-08-01 18:07:44.977  INFO 16104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5555 (http) with context path ''
+2019-08-01 18:07:44.979  INFO 16104 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5555
+2019-08-01 18:07:44.982  INFO 16104 --- [restartedMain] c.dashboard.HystrixDashboardApplication  : Started HystrixDashboardApplication in 6.268 seconds (JVM running for 7.099)
+2019-08-01 18:07:45.028  INFO 16104 --- [http-nio-5555-exec-2] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:5555/turbine.stream
+
+
+2019-08-01 18:07:45.028  INFO 16104 --- [http-nio-5555-exec-1] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:5555/turbine.stream
+
+
+2019-08-01 18:07:45.035  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.s.servlet.TurbineStreamServlet     : FilterCriteria: []
+2019-08-01 18:07:45.035  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.s.servlet.TurbineStreamServlet     : FilterCriteria: []
+2019-08-01 18:07:45.035  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.s.servlet.TurbineStreamServlet     : StatsType filters: []
+2019-08-01 18:07:45.035  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.s.servlet.TurbineStreamServlet     : StatsType filters: []
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.s.TurbineStreamingConnection       : Relevance config: []
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.s.TurbineStreamingConnection       : Relevance config: []
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.s.TurbineStreamingConnection       : Relevance metrics config: {}
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.s.TurbineStreamingConnection       : Relevance metrics config: {}
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.monitor.cluster.ClusterMonitor     : Registering event handler for cluster monitor: StreamingHandler_a5b6ec33-7eac-492b-8caa-95186ca8024d
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.monitor.cluster.ClusterMonitor     : Registering event handler for cluster monitor: StreamingHandler_6d3e9dcc-caaf-4e97-9642-cee3a3a49c4f
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.handler.TurbineDataDispatcher      : 
+
+Just added and starting handler tuple: StreamingHandler_6d3e9dcc-caaf-4e97-9642-cee3a3a49c4f
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.handler.TurbineDataDispatcher      : 
+
+Just added and starting handler tuple: StreamingHandler_a5b6ec33-7eac-492b-8caa-95186ca8024d
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.turbine.data.AggDataFromCluster      : Per handler dispacher started for: StreamingHandler_6d3e9dcc-caaf-4e97-9642-cee3a3a49c4f
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-4] c.n.turbine.data.AggDataFromCluster      : Per handler dispacher started for: StreamingHandler_a5b6ec33-7eac-492b-8caa-95186ca8024d
+2019-08-01 18:07:45.038  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.monitor.cluster.ClusterMonitor     : All event handlers for cluster monitor: [StaticListener_For_Aggregator, StreamingHandler_6d3e9dcc-caaf-4e97-9642-cee3a3a49c4f, StreamingHandler_a5b6ec33-7eac-492b-8caa-95186ca8024d]
+2019-08-01 18:07:45.039  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.monitor.cluster.ClusterMonitor     : All event handlers for cluster monitor: [StaticListener_For_Aggregator, StreamingHandler_6d3e9dcc-caaf-4e97-9642-cee3a3a49c4f, StreamingHandler_a5b6ec33-7eac-492b-8caa-95186ca8024d]
+2019-08-01 18:07:45.039  INFO 16104 --- [http-nio-5555-exec-4] c.n.t.monitor.cluster.ClusterMonitor     : Starting up the cluster monitor for default_agg
+2019-08-01 18:07:45.039  INFO 16104 --- [http-nio-5555-exec-5] c.n.t.monitor.cluster.ClusterMonitor     : Starting up the cluster monitor for default_agg
+2019-08-01 18:07:45.653  INFO 16104 --- [RMI TCP Connection(3)-192.168.5.15] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-01 18:07:45.653  INFO 16104 --- [RMI TCP Connection(3)-192.168.5.15] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-01 18:07:45.653 DEBUG 16104 --- [RMI TCP Connection(3)-192.168.5.15] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-08-01 18:07:45.659 DEBUG 16104 --- [RMI TCP Connection(3)-192.168.5.15] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-08-01 18:07:45.659  INFO 16104 --- [RMI TCP Connection(3)-192.168.5.15] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2019-08-01 18:07:55.126 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A9002%2Factuator%2Fhystrix.stream", parameters={masked}
+2019-08-01 18:07:55.155 DEBUG 16104 --- [http-nio-5555-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2019-08-01 18:07:55.203 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-08-01 18:07:55.203 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.view.freemarker.FreeMarkerView   : View name 'hystrix/monitor', model {basePath=/hystrix/monitor, contextPath=}
+2019-08-01 18:07:55.204 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [hystrix/monitor.ftl]
+2019-08-01 18:07:55.268 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.282 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/global.css", parameters={}
+2019-08-01 18:07:55.286 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.292 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/monitor.css", parameters={}
+2019-08-01 18:07:55.295 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.298 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.302 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.302 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/webjars/d3js/3.4.11/d3.min.js", parameters={}
+2019-08-01 18:07:55.305 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/2.1.1/jquery.min.js", parameters={}
+2019-08-01 18:07:55.306 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/hystrixThreadPool.css", parameters={}
+2019-08-01 18:07:55.306 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/hystrixCommand.css", parameters={}
+2019-08-01 18:07:55.307 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-08-01 18:07:55.308 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-08-01 18:07:55.309 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.312 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.312 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.318 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/resets.css", parameters={}
+2019-08-01 18:07:55.321 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.323 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.323 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.328 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.328 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/js/tmpl.js", parameters={}
+2019-08-01 18:07:55.328 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/js/jquery.tinysort.min.js", parameters={}
+2019-08-01 18:07:55.330 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.330 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.332 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.334 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.334 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/hystrixCommand.js", parameters={}
+2019-08-01 18:07:55.335 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.336 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/hystrixThreadPool.js", parameters={}
+2019-08-01 18:07:55.340 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.343 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.346 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.372 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.418 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/templates/hystrixCircuit.html", parameters={}
+2019-08-01 18:07:55.418 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/templates/hystrixCircuitContainer.html", parameters={}
+2019-08-01 18:07:55.419 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.419 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.422 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.422 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.431 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/templates/hystrixThreadPool.html", parameters={}
+2019-08-01 18:07:55.433 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.435 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.441 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/images/hystrix-logo-tagline-tiny.png", parameters={}
+2019-08-01 18:07:55.442 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/templates/hystrixThreadPoolContainer.html", parameters={}
+2019-08-01 18:07:55.443 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.443 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:55.447 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.447 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:55.475  INFO 16104 --- [http-nio-5555-exec-7] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:9002/actuator/hystrix.stream
+
+
+2019-08-01 18:07:55.484  INFO 16104 --- [http-nio-5555-exec-10] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:9002/actuator/hystrix.stream
+
+
+2019-08-01 18:07:55.497 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-08-01 18:07:55.498 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-08-01 18:07:55.510 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.907 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A9002%2Factuator%2Fhystrix.stream", parameters={masked}
+2019-08-01 18:07:59.909 DEBUG 16104 --- [http-nio-5555-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String org.springframework.cloud.netflix.hystrix.dashboard.HystrixDashboardController.monitor(java.lang.String,org.springframework.ui.Model,org.springframework.web.context.request.WebRequest)
+2019-08-01 18:07:59.916 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-08-01 18:07:59.917 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.view.freemarker.FreeMarkerView   : View name 'hystrix/monitor', model {basePath=/hystrix/monitor, contextPath=}
+2019-08-01 18:07:59.917 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.view.freemarker.FreeMarkerView   : Rendering [hystrix/monitor.ftl]
+2019-08-01 18:07:59.918 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.939 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/global.css", parameters={}
+2019-08-01 18:07:59.943 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.945 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.948 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/monitor.css", parameters={}
+2019-08-01 18:07:59.951 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/webjars/d3js/3.4.11/d3.min.js", parameters={}
+2019-08-01 18:07:59.952 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/webjars/jquery/2.1.1/jquery.min.js", parameters={}
+2019-08-01 18:07:59.952 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-08-01 18:07:59.952 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+2019-08-01 18:07:59.955 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.957 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.966 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.966 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/js/jquery.tinysort.min.js", parameters={}
+2019-08-01 18:07:59.966 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/hystrixCommand.css", parameters={}
+2019-08-01 18:07:59.967 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.967 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.969 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.972 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.976 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.979 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/hystrixCommand.js", parameters={}
+2019-08-01 18:07:59.979 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.980 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/hystrixThreadPool.css", parameters={}
+2019-08-01 18:07:59.981 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.983 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.990 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:07:59.990 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/js/tmpl.js", parameters={}
+2019-08-01 18:07:59.991 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/css/resets.css", parameters={}
+2019-08-01 18:07:59.990 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/hystrixThreadPool.js", parameters={}
+2019-08-01 18:07:59.993 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.993 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.993 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:07:59.995 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.001 DEBUG 16104 --- [http-nio-5555-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.003 DEBUG 16104 --- [http-nio-5555-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.028 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/templates/hystrixCircuitContainer.html", parameters={}
+2019-08-01 18:08:00.028 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:08:00.029 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/templates/hystrixThreadPool.html", parameters={}
+2019-08-01 18:08:00.030 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.030 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:08:00.031 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixThreadPool/templates/hystrixThreadPoolContainer.html", parameters={}
+2019-08-01 18:08:00.031 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:08:00.033 DEBUG 16104 --- [http-nio-5555-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.034 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.028 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/components/hystrixCommand/templates/hystrixCircuit.html", parameters={}
+2019-08-01 18:08:00.040 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/hystrix/images/hystrix-logo-tagline-tiny.png", parameters={}
+2019-08-01 18:08:00.039 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:08:00.041 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-08-01 18:08:00.042 DEBUG 16104 --- [http-nio-5555-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.045 DEBUG 16104 --- [http-nio-5555-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:00.058  INFO 16104 --- [http-nio-5555-exec-8] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:9002/actuator/hystrix.stream
+
+
+2019-08-01 18:08:00.059 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-08-01 18:08:00.062 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-08-01 18:08:00.063  INFO 16104 --- [http-nio-5555-exec-3] ashboardConfiguration$ProxyStreamServlet : 
+
+Proxy opening connection to: http://localhost:9002/actuator/hystrix.stream
+
+
+2019-08-01 18:08:00.066 DEBUG 16104 --- [http-nio-5555-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:08:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:09:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:09:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:10:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:10:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:10:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:11:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:12:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:12:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:12:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:12:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:12:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:12:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:12:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:12:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:12:44.563  INFO 16104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-01 18:13:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:13:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:13:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:13:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:13:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:13:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:13:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:13:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:14:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:14:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:14:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:14:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:14:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:14:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:14:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:14:44.045  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:15:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:15:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:15:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:16:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:16:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:17:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:17:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:17:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:17:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:17:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:17:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:17:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:17:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:17:44.574  INFO 16104 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:18:44.043  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:19:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:19:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:19:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:19:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:19:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:19:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:19:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:19:44.044  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 18:20:44.043  INFO 16104 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 18:20:44.043  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 18:20:44.044  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 18:20:44.045  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 18:20:44.045  INFO 16104 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 18:20:44.045  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 18:20:44.045  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 18:20:44.045  INFO 16104 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0

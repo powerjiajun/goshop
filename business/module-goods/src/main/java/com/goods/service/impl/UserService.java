@@ -1,9 +1,9 @@
 package com.goshop.goods.service.impl;
 
 import com.goshop.entity.User;
-import com.goshop.user.cache.RedisClientTemplate;
-import com.goshop.user.mapper.IUserMapper;
-import com.goshop.user.service.IUserService;
+import com.goshop.goods.cache.RedisClientTemplate;
+import com.goshop.goods.mapper.IUserMapper;
+import com.goshop.goods.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
