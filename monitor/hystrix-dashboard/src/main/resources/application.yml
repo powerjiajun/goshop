@@ -7,6 +7,11 @@ eureka:
 spring:
   application:
     name: hystrix-dashboard
+turbine:
+  app-config: API,MODULE-USER
+  aggregator:
+    cluster-config: default
+  cluster-name-expression: new String("default")
 management:
   endpoints:
     web:

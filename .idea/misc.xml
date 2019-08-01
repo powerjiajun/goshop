@@ -19,6 +19,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/business/tmp_module/pom.xml" />
+        <option value="$PROJECT_DIR$/monitor/hystrix-turbine/pom.xml" />
       </set>
     </option>
   </component>
