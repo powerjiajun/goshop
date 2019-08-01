@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    config:
+      name: goshop
+      profile: dev
+      enabled: true
+      fail-fast: false
+      discovery:
+        enabled: true
+        service-id: configserver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/

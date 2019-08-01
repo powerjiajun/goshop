@@ -17,6 +17,8 @@
     <modules>
         <module>module-user</module>
         <module>api</module>
+        <module>module-goods</module>
+        <module>module-goods</module>
     </modules>
     <dependencies>
         <dependency>

@@ -6,7 +6,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>hystrix-dashboard</module>
-        <module>hystrix-turbine</module>
     </modules>
 
     <parent>

@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: module-goods
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shop?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: root
+  kafka:
+    bootstrap-servers: 192.168.176.129:9092,192.168.176.129:9093,192.168.176.129:9094
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: test
+      enable-auto-commit: true
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  #redis:
+  #  cache.clusterNodes: 192.168.176.129:6379,192.168.176.130:6379,192.168.176.131:6379
+  #  cache.commandTimeout: 5000
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+feign:
+  hystrix:
+    enabled: true
+
+

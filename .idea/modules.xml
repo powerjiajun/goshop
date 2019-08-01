@@ -14,8 +14,9 @@
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway/gateway-rest/gateway-rest.iml" filepath="$PROJECT_DIR$/gateway/gateway-rest/gateway-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/goshop.iml" filepath="$PROJECT_DIR$/.idea/goshop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/monitor/hystrix-dashboard/hystrixdashboard.iml" filepath="$PROJECT_DIR$/monitor/hystrix-dashboard/hystrixdashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/monitor/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business/module-goods/module-goods.iml" filepath="$PROJECT_DIR$/business/module-goods/module-goods.iml" />
       <module fileurl="file://$PROJECT_DIR$/business/module-user/module-user.iml" filepath="$PROJECT_DIR$/business/module-user/module-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
     </modules>

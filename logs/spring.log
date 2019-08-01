@@ -21670,3 +21670,24 @@ Removing tuple for : StreamingHandler_bc208feb-b982-42d1-90bf-4a14f7cd1c9b tuple
 2019-08-01 17:11:59.773  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
 2019-08-01 17:11:59.773  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
 2019-08-01 17:11:59.773  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 17:12:59.770  INFO 16328 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 17:12:59.770  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 17:12:59.770  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 17:12:59.770  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 17:12:59.770  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 17:12:59.771  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 17:12:59.771  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 17:12:59.771  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 17:13:59.770  INFO 16328 --- [Timer-0] o.s.c.n.t.CommonsInstanceDiscovery       : Fetching instance list for apps: [API, MODULE-USER]
+2019-08-01 17:13:59.771  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: API
+2019-08-01 17:13:59.771  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: API, size=1
+2019-08-01 17:13:59.771  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Fetching instances for app: MODULE-USER
+2019-08-01 17:13:59.771  INFO 16328 --- [Timer-0] o.s.c.n.turbine.EurekaInstanceDiscovery  : Received instance list for app: MODULE-USER, size=1
+2019-08-01 17:13:59.772  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Retrieved hosts from InstanceDiscovery: 2
+2019-08-01 17:13:59.772  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Found hosts that have been previously terminated: 0
+2019-08-01 17:13:59.772  INFO 16328 --- [Timer-0] c.n.t.discovery.InstanceObservable       : Hosts up:2, hosts down: 0
+2019-08-01 17:14:00.377  INFO 16328 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-01 17:14:51.384  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Got ioe for host: YH-201707005:9002
+2019-08-01 17:14:51.385  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Re-initing host connection: YH-201707005:9002 default
+2019-08-01 17:14:53.333  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Got ioe for host: YH-201707005:9001
+2019-08-01 17:14:53.333  INFO 16328 --- [InstanceMonitor] c.n.t.monitor.instance.InstanceMonitor   : Re-initing host connection: YH-201707005:9001 default

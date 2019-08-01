@@ -12,9 +12,9 @@
         <module name="core" />
         <module name="eureka" />
         <module name="gateway-rest" />
-        <module name="goshop" />
-        <module name="hystrixdashboard" />
+        <module name="hystrix-dashboard" />
         <module name="model" />
+        <module name="module-goods" />
         <module name="module-user" />
       </profile>
     </annotationProcessing>
@@ -32,10 +32,13 @@
       <module name="gateway" target="1.8" />
       <module name="gateway-rest" target="1.8" />
       <module name="goshop" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
       <module name="hystrixdashboard" target="1.8" />
       <module name="hystrixturbine" target="1.8" />
       <module name="model" target="1.5" />
+      <module name="module-goods" target="1.8" />
       <module name="module-user" target="1.8" />
+      <module name="modulegoods" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="tmp" target="1.8" />
       <module name="user" target="1.8" />
@@ -52,9 +55,12 @@
       <module name="gateway" options="-parameters" />
       <module name="gateway-rest" options="-parameters" />
       <module name="goshop" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
       <module name="hystrixdashboard" options="-parameters" />
       <module name="hystrixturbine" options="-parameters" />
+      <module name="module-goods" options="-parameters" />
       <module name="module-user" options="-parameters" />
+      <module name="modulegoods" options="-parameters" />
       <module name="monitor" options="-parameters" />
       <module name="tmp" options="-parameters" />
       <module name="user" options="-parameters" />
