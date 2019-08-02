@@ -1,4 +1,4 @@
-package com.goshop.goods.message;
+package com.goods.message;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;

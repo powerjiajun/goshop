@@ -6,7 +6,7 @@ eureka:
       defaultZone: http://localhost:8000/eureka
 spring:
   application:
-    name: hystrix-dashboard
+    name: fallback-dashboard
 turbine:
   app-config: API,MODULE-USER
   aggregator:

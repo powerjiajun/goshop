@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.goods.mapper.IGoodsMapper" >
+    <!--
+    <resultMap id="UserMap" type="com.meng.entity.User" >
+        <id column="id" property="id" jdbcType="INTEGER" />
+        <result column="username" property="username" jdbcType="VARCHAR" />
+        <result column="age" property="age" jdbcType="INTEGER" />
+        <result column="ctm" property="ctm" jdbcType="TIMESTAMP"/>
+    </resultMap>
+    -->
+
+    <select id="selectGoods" resultType="com.goshop.entity.Goods" >
+        SELECT *
+        FROM goods
+        WHERE id= #{id}
+    </select>
+
+</mapper>

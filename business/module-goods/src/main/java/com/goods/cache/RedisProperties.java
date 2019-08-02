@@ -1,4 +1,4 @@
-package com.goshop.goods.cache;
+package com.goods.cache;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

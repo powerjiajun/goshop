@@ -1,12 +1,12 @@
-package com.goshop.api.hystrix;
+package com.goshop.api.fallback;
 
 import com.goshop.api.rpc.IUserService;
 import org.springframework.stereotype.Component;
 
 @Component
-public class UserServiceHystrix implements IUserService {
+public class UserServiceFallback implements IUserService {
     @Override
     public String findUserInfo() {
-        return "hystrix findUserInfo";
+        return "fallback findUserInfo";
     }
 }

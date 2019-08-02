@@ -26,7 +26,7 @@ public class HystrixDashboardApplication {
 //        HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
 //        ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
 //        registrationBean.setLoadOnStartup(1);
-//        registrationBean.addUrlMappings("/actuator/hystrix.stream");
+//        registrationBean.addUrlMappings("/actuator/fallback.stream");
 //        registrationBean.setName("HystrixMetricsStreamServlet");
 //        return registrationBean;
 //    }
