@@ -1,5 +1,6 @@
 package com.goshop.api;
 
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import com.netflix.hystrix.contrib.metrics.eventstream.HystrixMetricsStreamServlet;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +16,7 @@ import org.springframework.context.annotation.Bean;
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableHystrix
+@EnableApolloConfig
 public class ApiApplication {
 
 	public static void main(String[] args) {

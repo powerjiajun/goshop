@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserRest {
-    @Value("${ji.name}")
+    @Value("${name}")
     private String name;
 
     @Autowired
