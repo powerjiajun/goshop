@@ -1,6 +1,6 @@
 package com.gateway.filter;
 
-import com.core.constans.authorization.AuthConstants;
+import com.core.constants.authorization.AuthConstants;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilter;

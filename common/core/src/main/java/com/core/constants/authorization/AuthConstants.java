@@ -1,4 +1,4 @@
-package com.core.constans.authorization;
+package com.core.constants.authorization;
 
 public class AuthConstants
 {

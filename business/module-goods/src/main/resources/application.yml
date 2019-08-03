@@ -1,6 +1,11 @@
 spring:
   application:
     name: module-goods
+  sleuth:
+    sampler:
+      probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+  zipkin:
+    base-url: http://192.168.153.131:9411 # 指定了 Zipkin 服务器的地址
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/shop?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
