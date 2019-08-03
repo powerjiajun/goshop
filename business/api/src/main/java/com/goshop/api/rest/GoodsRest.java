@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GoodsRest {
-    @Value("${ji.name}")
+    @Value("${name}")
     private String name;
 
     @Autowired

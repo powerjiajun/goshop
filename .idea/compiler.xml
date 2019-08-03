@@ -24,9 +24,9 @@
       <module name="authorization-server" target="1.8" />
       <module name="business" target="1.8" />
       <module name="center" target="1.8" />
-      <module name="common" target="1.5" />
+      <module name="common" target="1.8" />
       <module name="config" target="1.8" />
-      <module name="core" target="1.5" />
+      <module name="core" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway" target="1.8" />
@@ -51,6 +51,7 @@
       <module name="auth" options="-parameters" />
       <module name="authorization-server" options="-parameters" />
       <module name="config" options="-parameters" />
+      <module name="core" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway" options="-parameters" />

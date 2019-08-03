@@ -37,5 +37,11 @@ mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+apollo:
+  meta: http://192.168.153.131:8080
+  bootstrap:
+    enabled: true
+    eagerLoad:
+      enabled: true
 
 
